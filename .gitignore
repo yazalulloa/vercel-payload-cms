@@ -36,7 +36,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 
 .env
 
@@ -48,3 +47,12 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+build
+dist / media
+
+# Payload default media upload directory
+public/media/
+
+public/robots.txt
+public/sitemap*.xml
