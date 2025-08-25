@@ -1,8 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "crons": [
     {
       "path": "/api/payload-jobs/run",
       "schedule": "0 0 * * *"
     }
-  ]
+  ],
+  "regions": ["gru1"]
 }
